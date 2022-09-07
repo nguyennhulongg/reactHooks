@@ -4,31 +4,29 @@
 }
 
 body {
-    background: linear-gradient(#ee9ca7, #ffdde1);
-    height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: linear-gradient(#ee9ca7, #ffdde1);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    padding: 40px 20px 20px ;
-    border: 1px solid black;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px 20px ;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .wrapper h1 {
-    margin-bottom: 70px;
-    font-size: 55px;
-    font-weight: 100;
+  margin-bottom: 70px;
+  font-size: 55px;
+  font-weight: 100;
 }
 
-.addTask input{
+.addTask input {
     font-size: 16px;
     padding: 10px;
     width: 20rem;
@@ -39,23 +37,32 @@ body {
 }
 
 .button {
-    font-size: 16px;
-    padding: 10px 0 5px 0;
-    width: 20rem;
-    margin-top: 20px;
-    border-radius: 7px;
-
-    outline: none;
-    border: none;
-    background: #f48282;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    transition: 0.35s;
+  font-size: 16px;
+  padding: 10px 0 5px 0;
+  width: 20rem;
+  margin-top: 20px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background: #f48282;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.35s;
 }
 
 .button:hover {
-    background-color: #f16363d1;
+  background-color: #f16363d1;
 }
+
+
+.update {
+  background: #c5f482;
+}
+
+.update:hover {
+  background: #d3f89e;
+}
+
 
 .todo-list {
     margin: 30px 0;
@@ -93,20 +100,20 @@ body {
 } 
 
 .todo-list li .icon {
-    cursor: pointer;
-    padding: 10px;
-    transition: 0.35s;
-    transform: translateX(120px);
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.35s;
+  transform: translateX(120px);
 }
 
 .todo-list li:hover .icon {
-    transform: translateX(30px);
+  transform: translateX(30px);
 }
 
 .todo-list li i:hover{
-    background: rgba(222, 101, 101, 0.814);
-    border-radius: 10px;
-    color: black;
+  background: rgba(222, 101, 101, 0.814);
+  border-radius: 10px;
+  color: black;
 }
 
 
